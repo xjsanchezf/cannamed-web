@@ -1,0 +1,19 @@
+// Mixins Styles Cannamed
+
+@mixin btn($ancho:184px, $colorBoton:#000, $relleno:13px 0, $fuente, $coloTexto:#FAFAFA) {
+    display: inline-block;
+    width: $ancho;
+    background-color: $colorBoton;
+    border-radius: 64px;
+    padding: $relleno;
+    font: $fuente;
+    text-decoration: none;
+    text-align: center;
+    color: $coloTexto;
+}
+
+@mixin enlaces($fuente) {
+    text-decoration: none;
+    color: $colorCannamed;
+    font: $fuente;
+}

@@ -1,0 +1,13 @@
+//Componentes Cannamed
+
+.btn-primary {
+    @include btn($fuente:$textInputs, $colorBoton:$colorCannamed);
+}
+
+.enlace {
+    @include enlaces($fuente:$textEnlace)
+}
+
+.enlace-activo {
+    @include enlaces($fuente:$textEnlaceActivo)
+}
