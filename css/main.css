@@ -81,6 +81,23 @@ input::placeholder {
   color: rgba(51, 51, 51, 0.6)
 }
 
+footer {
+  background: #F5F5F5;
+  padding: 20px 128px 20px 128px;
+  height: 192px;
+}
+footer .contenedor {
+  width: 100%;
+  height: 100%;
+}
+footer .enlaces {
+  float: right;
+  margin-top: 4px;
+}
+footer .enlace {
+  margin-left: 12px;
+}
+
 
 .img-logo {
   float: left;

@@ -1,0 +1,49 @@
+html, body {
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.height-100 {
+    height: 100vh;
+}
+
+.height-75 {
+    height: 75vh;
+}
+
+.display-1 {
+    text-decoration: none;
+    color: #FAFAFA;
+    font: normal 600 64px "Sarabun", sans-serif;
+}
+
+.display-2 {
+    text-decoration: none;
+    color: #FAFAFA;
+    font: normal 600 40px "Sarabun", sans-serif;
+}
+
+#banner-principal {
+    background-image: url(../assets/images/bg_02.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-img {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#que-es .section-img {
+    background-image: url(../assets/images/bg_02.jpg);
+}
+
+.imagen {
+    max-height: 50vh;
+
+}
