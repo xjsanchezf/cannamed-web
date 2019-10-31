@@ -18,17 +18,14 @@ body {
 .display-2 {
     text-decoration: none;
     color: #FAFAFA;
-    font: normal 600 40px "Sarabun", sans-serif;
+    font: normal 400 40px "Sarabun", sans-serif;
 }
 
 main section {
-    min-height: calc(100vh - 10vh);
+    min-height: 100vh;
 }
 main section > div {
     margin-top: auto;
-}
-section .btn-primary {
-
 }
 
 /**/
@@ -44,7 +41,10 @@ section .btn-primary {
 #banner-principal p {
     display: inline-block;
     margin: 0px auto;
-    padding: 1em 0px;
+    text-align: center;
+}
+#banner-principal a {
+    margin: 24px calc(100% - 55%);
     text-align: center;
 }
 #banner-principal .row-fluid {
