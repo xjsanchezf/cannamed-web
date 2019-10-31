@@ -1,38 +1,58 @@
-html, body {
+/**/
+/* ajustes bootstrap */
+body {
     overflow-x: hidden;
 }
-
 .container-fluid {
     margin: 0;
     padding: 0;
 }
 
-.height-100 {
-    height: 100vh;
-}
-
-.height-75 {
-    height: 75vh;
-}
-
+/**/
+/* textos */
 .display-1 {
     text-decoration: none;
     color: #FAFAFA;
     font: normal 600 64px "Sarabun", sans-serif;
 }
-
 .display-2 {
     text-decoration: none;
     color: #FAFAFA;
     font: normal 600 40px "Sarabun", sans-serif;
 }
 
+main section {
+    min-height: calc(100vh - 10vh);
+}
+main section > div {
+    margin-top: auto;
+}
+section .btn-primary {
+
+}
+
+/**/
+/* banner principal */
 #banner-principal {
     background-image: url(../assets/images/bg_02.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    width: 100%;
+    height: calc(100vh - 10vh);
 }
+#banner-principal p {
+    display: inline-block;
+    margin: 0px auto;
+    padding: 16px 0px;
+    text-align: center;
+}
+#banner-principal .row-fluid {
+    width: 60%;
+    margin: auto;
+    padding: calc(100vh - 70vh) 0px;
+}
+
 
 .section-img {
     background-size: contain;
@@ -41,9 +61,4 @@ html, body {
 }
 #que-es .section-img {
     background-image: url(../assets/images/bg_02.jpg);
-}
-
-.imagen {
-    max-height: 50vh;
-
 }
