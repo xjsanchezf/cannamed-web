@@ -21,9 +21,10 @@
 .enlace {
   text-decoration: none;
   color: #477448;
-  font: normal 16px/100% "Sarabun", sans-serif;
+  font: normal 18px/100% "Sarabun", sans-serif;
 }
 
+.enlace:hover,
 .enlace-activo {
   text-decoration: none;
   color: #477448;
@@ -45,7 +46,13 @@
 .parrafo {
   text-decoration: none;
   color: #666666;
-  font: normal 600 20px/130% "Sarabun", sans-serif;
+  font: normal 400 20px/140% "Sarabun", sans-serif;
+}
+
+small {
+  text-decoration: none;
+  color: #666666;
+  font: normal 400 16px "Sarabun", sans-serif;
 }
 
 
@@ -70,6 +77,7 @@ header a:nth-child(4) {
   margin-right: 0;
 }
 
+
 input {
   height: 40px;
   background: none;
@@ -81,21 +89,33 @@ input::placeholder {
   color: rgba(51, 51, 51, 0.6)
 }
 
+/**/
+/* footer */
 footer {
-  background: #F5F5F5;
-  padding: 20px 128px 20px 128px;
-  height: 192px;
-}
-footer .contenedor {
   width: 100%;
   height: 100%;
+  padding: 20px 128px 20px 128px;
+  background: #F5F5F5;
+  display: flex;
+  flex-flow: row;
+  align-content: space-between;
+}
+footer div {
+  display: flex;
+  flex-flow: column;
+  width: fit-content;
+}
+footer p {
+  margin-top: 16px;
 }
 footer .enlaces {
-  float: right;
-  margin-top: 4px;
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
 }
 footer .enlace {
-  margin-left: 12px;
+  margin-left: 24px;
 }
 
 
