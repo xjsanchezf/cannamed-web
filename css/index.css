@@ -4,8 +4,8 @@ body {
     overflow-x: hidden;
 }
 .container-fluid {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 /**/
@@ -38,22 +38,28 @@ section .btn-primary {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
-    height: calc(100vh - 10vh);
+    width: 100vw;
+    height: 100vh;
 }
 #banner-principal p {
     display: inline-block;
     margin: 0px auto;
-    padding: 16px 0px;
+    padding: 1em 0px;
     text-align: center;
 }
 #banner-principal .row-fluid {
-    width: 60%;
-    margin: auto;
-    padding: calc(100vh - 70vh) 0px;
+    width: calc(100vw - 40vh);
+    margin: 0px auto;
+    padding: calc(100vh - 65vh) 0px;
 }
 
+/**/
+#como-funciona {
+    background-color: #477448;
+}
 
+/**/
+/* imagenes de secciones */
 .section-img {
     background-size: contain;
     background-position: center;
@@ -61,4 +67,7 @@ section .btn-primary {
 }
 #que-es .section-img {
     background-image: url(../assets/images/bg_02.jpg);
+}
+#como-funciona .section-img {
+    background-image: url(../assets/images/bg_01.jpg);
 }
