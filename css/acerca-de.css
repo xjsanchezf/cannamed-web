@@ -1,0 +1,48 @@
+@media (min-width: 1200px) {
+   .container {
+       max-width: 100%;
+       padding: 0px 128px
+   }
+}
+
+/* Sección Qué - Es */
+.que-es {
+    margin: 345px 0px;
+}
+
+.que-es .row h1 {
+    margin-bottom: 40px;
+}
+
+.que-es .row p {
+    max-width: 556px;
+    margin: 0px auto;
+}
+
+/* Sección Para - Quién */
+.para-quien {
+    padding: 0px 172px;
+    margin-bottom: 450px;
+}
+.para-quien .row h1 {
+    margin-bottom: 96px;
+}
+.para-quien .row .tipo-paciente {
+    max-width: 312px;
+}
+.para-quien .row .tipo-paciente img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Sección Es - Legal */
+.es-legal {
+    margin-bottom: 300px;
+}
+.es-legal .row h1 {
+    margin-bottom: 40px;
+}
+.es-legal .row p {
+    max-width: 828px;
+    margin: 0px auto;
+}

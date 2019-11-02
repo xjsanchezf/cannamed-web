@@ -1,0 +1,30 @@
+html, body {
+    overflow-x: hidden;
+}
+
+main section {
+    width: 100vw;
+    height: 100vh;
+}
+
+.contenedor {
+    width: calc(100vw - 40vw);
+    height: fit-content;
+    margin: auto;
+    padding: calc(100vh - 75vh) 0px;
+}
+
+.contenedor p {
+    text-align: center;
+    padding: 32px 0px;
+}
+
+.contenedor button,
+.contenedor button:hover {
+    display: block;
+    margin: 32px auto;
+    width: 144px;
+}
+.contenedor button:hover {
+    cursor: pointer;
+}
