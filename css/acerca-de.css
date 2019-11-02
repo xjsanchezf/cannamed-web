@@ -46,3 +46,9 @@
     max-width: 828px;
     margin: 0px auto;
 }
+
+@media screen and (max-width: 1199px) {
+    .para-quien {
+        padding: 0px 10vw;
+    }
+}

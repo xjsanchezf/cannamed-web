@@ -95,4 +95,11 @@ main section .btn {
     section {
         text-align: center;
     }
+
+    /**/
+    #banner-principal > div {
+        width: 90vw;
+        margin: 0px auto;
+        padding: 20vh 16px;
+    }
 }
