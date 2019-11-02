@@ -53,6 +53,7 @@
 /**/
 /* header */
 header {
+  width: 100vw;
   height: 96px;
   padding: 20px 128px 0 128px;
   background: #F5F5F5;
